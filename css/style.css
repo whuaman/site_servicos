@@ -1,0 +1,252 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300);
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+	box-sizing: border-box;
+
+
+}
+header{
+	background: url(http://tableless.com.br/servicos/images/her.jpg) no-repeat center;
+	margin:0 auto;
+	background-color: #000;
+	height: 500px;
+	background-size: cover;
+	align-items: center;
+	display: flex;
+	overflow: hidden;
+}
+.topo{
+	margin:0 auto;
+	text-align: center;
+}
+
+header p{
+	text-align: center;
+	color: #c1233d;
+	margin-bottom: 30px;
+	display: block;
+}
+h1, h2{
+	padding: 20px;
+	color: #fff;
+	text-align: center;
+	font-size: 50px;
+}
+
+header a {
+	text-align: center;
+	text-decoration: none;
+	padding: 15px 20px;
+	color: #fff;
+	border: 1px solid #c1233d;
+	margin: auto;
+	border-radius: 3px;
+	display: inline-block;
+}
+
+
+h2{
+	color: #333;
+	line-height: 50px;
+}
+h3{
+	font-size: 30px;
+	text-align: center;
+	color: #555;
+	padding-top: 50px;
+}
+h5{
+	font-size: 20px;
+	display: inline-block;
+}
+
+header a:hover{
+	background-color: #c1233d;
+}
+section{
+	padding: 30px 0;
+	margin: 0 auto;
+}
+.empresa{
+	max-width:800px; 
+	margin: 0 auto;
+	text-align: center;	
+}
+figure{
+	padding: 0;
+	flex: 1 0 500px;
+	width: 100%;
+}
+.empresa p{
+	line-height: 40px;
+	text-align: center;
+}
+.servicos{
+	display:flex;
+	margin-bottom: 30px;
+	
+}
+.strap img{
+	width: 100%;
+}
+
+p{
+	text-align: center;
+	line-height: 40px;
+	font-size: 20px;
+	padding: 0 60px ;
+}
+.tecnologias{
+	margin: 0 auto;
+	background-color: #eee;
+
+}
+.tecnologias p{
+	margin: 0 auto;
+	margin-bottom: 60px;
+	overflow: hidden;
+
+
+}
+.tecnologias-texto{
+	max-width: 1000px;
+}
+.tecnologias ul{
+	width: 80%;
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+.tecnologias ul li{
+	list-style: none;
+	flex:1 0 500px;
+	max-width: 100%;
+
+}
+.tecnologias ul li img{
+	border-radius: 50%;
+	width: 90px;
+	float: left;
+	margin-right: 25px;
+}
+
+.texto-mid{
+	text-align: left;
+	padding: 0;
+	font-size: 1em;
+}
+
+.strap {
+	padding: 0;
+	display: flex;
+	background-color: #333;
+	align-items: center;
+	height: 500px;
+	overflow: hidden;
+}
+
+.strap p{
+
+	color: #fff;
+}
+
+.bootss{
+	flex:1 0 500px;
+}
+
+.bootss p{
+	text-align: left;
+	color: #c1233d;
+	margin-left: 40px;
+	padding: 0;
+}
+
+h4{
+	font-size: 40px;
+	color: #888;
+	margin-left: 40px;
+
+}
+
+.lala{
+	color: #fff;
+	line-height: 40px;
+	margin-left: 40px;
+	display: block;
+}
+
+
+.use {
+	background-color: #f5f1eb !important;
+	display: flex;
+	height: 500px;
+	overflow: hidden;
+	margin:0 auto;
+	align-items: center;
+}
+#faleconosco h4{
+	text-align: center;
+	font-size: 30px;
+	color: #222;
+	margin-bottom: 15px;
+
+}
+#faleconosco p{
+	width: 60%;
+	text-align: center;
+	margin: 0 auto;
+}
+.formulario{
+	width: 70%;
+	margin: 0 auto;
+}
+form{
+	
+	box-sizing: border-box;
+	overflow: hidden;
+	padding: 10px;
+	margin: 0 auto;
+}
+input{
+	width: 90%;
+	margin: 15px 10px 15px 0;
+	border-radius: 4px;
+	padding: 15px;
+	border: 1px solid #444;
+}
+label{
+	font-size: 15px;
+}
+footer{
+	border-top: 1px solid #999;
+}
+footer p{
+	font-size: 13px;
+}
+input[type=submit]{
+	background-color: #555;
+	color: #fff;
+	max-width:300px; 
+	text-align: center;
+	margin:15px auto;
+	display: block;
+	border:0;
+}
+input[type=submit]:hover{
+	background-color: #888;
+	color: #fff;
+	box-shadow: 0 0 10px #888;
+	
+}
+input[type=radio]{
+	margin: 10px 0;
+	padding: 0;
+	width: 100px;
+	border:0;
+
+	
+}
