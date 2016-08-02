@@ -14,7 +14,6 @@ header{
 	background-size: cover;
 	align-items: center;
 	display: flex;
-	overflow: hidden;
 }
 .topo{
 	margin:0 auto;
@@ -45,7 +44,6 @@ header a {
 	display: inline-block;
 }
 
-
 h2{
 	color: #333;
 	line-height: 50px;
@@ -73,11 +71,7 @@ section{
 	margin: 0 auto;
 	text-align: center;	
 }
-.agora img{
-	width: 100%;
-}
 figure{
-	padding: 0;
 	flex: 1 0 500px;
 
 }
@@ -87,9 +81,9 @@ figure{
 }
 .servicos{
 	display:flex;
-	margin-bottom: 30px;
-	
+	margin-bottom: 30px;	
 }
+
 .strap img{
 	width: 100%;
 }
