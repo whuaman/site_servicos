@@ -83,6 +83,14 @@ figure{
 	display:flex;
 	margin-bottom: 30px;	
 }
+.servicos div{
+	width: 100%;
+
+}
+.servicos img{
+	width: 100%;
+	text-align: center;	
+}
 
 .strap img{
 	width: 100%;
