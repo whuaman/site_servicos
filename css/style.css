@@ -232,7 +232,7 @@ input{
 	margin: 15px 10px;
 	border-radius: 4px;
 	padding: 15px;
-	border: 1px solid #444;
+	border: 1px solid #dee4e8;
 }
 
 label{
@@ -240,7 +240,7 @@ label{
 }
 
 footer{
-	border-top: 1px solid #999;
+	border-top: 1px solid #dee4e8;
 }
 
 footer p{
